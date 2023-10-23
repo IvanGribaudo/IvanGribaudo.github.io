@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Iván Gribaudo">
+    <meta name="owner" content="Iván Gribaudo">
+    <meta name="keywords" content="web developer, web services, HTML5, CSS3, JavaScript">
+    <meta name="description" content="Together with my team of programmers, we offer you excellent services for your website.">
+    <!-- === CSS FILE === -->
+    <link rel="stylesheet" href="port.css">
+    <title>Desarrollador Web | IvanG</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <!-- HEADER DESING -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#services" style="--i:3;">Services</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <!-- HOME DESING -->
+
+    <section class="home" id="home">
+        <div  class="home-content">
+            <h3>Hola, yo soy</h3>
+            <h1>Iván Gribaudo</h1>
+            <h3>Estudiante de <span class="multiple-text"></span></h3>
+            <p> Actualmente estudio en Udemy y estaría encantado de ayudarte en cualquier proyecto que necesites.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ivan.gribaudo.79" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/Ivangribaudo_" style="--i:8"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/_ivangribaudo/" style="--i:9"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/ivan-gribaudo-77411a292/" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a download="CV" a href="Gribaudo_Resume-1.pdf" class="btn">Download CV</a>
+        </div>
+        
+            <div class="home-img">
+                    <img src="aboutGreen2-1.png">
+                </div>
+    </section>  
+
+    <!--  ABOUT   -->
+
+   <section class="about" id="about">
+
+         <div class="about-img">
+            <img src="aboutGreen-1.png" alt="">
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About <span class="verde">Me</span></h2>
+         <!-- <h3>Web Developer</h3>-->
+          <p>Mi fascinación por la tecnología se encendió durante mis primeros años en la escuela secundaria,
+            donde encontré alegría al explorar las complejidades del mundo digital.
+            Deseoso de dar vida a mis ideas creativas, me adentré en el desarrollo web,
+            sumergiéndome en los fundamentos de HTML, CSS y JavaScript. </p>
+         <!-- <a href="#" class="btn">Leer Más</a> -->
+        </div>
+    </section>
+
+    <!-- SERVICES  -->
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span class="verde">Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-user-pin'></i>
+                <h3>Proyectos</h3>
+                <p>Capaz de adentrarme en cualquier equipo de programadores para realizar proyectos juntos.</p>
+                <a href="#contact" class="btn">GO!</a>    
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-file-blank'></i>
+                <h3>Pedidos</h3>
+                <p>Realizo trabajos para clientes individuales. Por ejemplo: Perfil de redes sociales, calculadora, etc. </p>
+                <a href="#contact" class="btn">GO!</a>    
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-wrench'></i>
+                <h3>Corrección</h3>
+                <p> Si tu sitio web tiene problemas o quieres cambiar algo,
+                    yo me encargo de corregirlo.</p>
+                <a href="#contact" class="btn">GO!</a>    
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="verde">Me!</span></h2>
+
+        <form action="https://formsubmit.co/ivangribaudo2015@gmail.com" method="post">
+            <div class="input-box">
+                <input type="text" name="name" id="name" class="name" placeholder= "Full Name">
+                <input type="mail" name="mail" id="mail" class="mail" placeholder="mail Address">
+            </div>
+
+            <div class="input-box">
+                <input type="phone" name="phone" id="phone" class="phone"  placeholder= "Mobile Number">
+                <input type="text" name="EmailS" id="EmailS" class="EmailS"  placeholder="Email Subject">
+            </div>
+
+            <textarea name="message" class="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Messaage" class="btn">
+
+            <div class="clear"></div></div>
+            <div class="col-md-8">
+
+<!--
+            <label><input type="checkbox" name= "acepto" value= "Acepto">
+            He leído y acepto los términos de <a href="docs/privacy.pdf"><Aviso de privacidad>privacidad</Aviso></a></label>
+            </div>
+-->
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-text">
+        <p>Copyright &copy; 2023 by IvanG | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    </footer>
+    
+    <!-- JAVA -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
