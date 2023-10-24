@@ -48,7 +48,7 @@ ScrollReveal().reveal('.home.content, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home.content p, .about-content', { origin: 'right' });
 
 var typed = new Typed(".multiple-text", {
-    strings:  [ "Desarrollo Web", "Diseño Web"],
+    strings:  [ "Web Developer", "Web Designer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
